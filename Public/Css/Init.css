@@ -1,0 +1,62 @@
+@font-face {
+	
+    font-family: 'Open Sans';
+	
+    src: url('../Font/opensans-300-normal.woff2') format('woff2'), url('../Font/opensans-300-normal.woff') format('woff'), url('../Font/opensans-300-normal.ttf') format('truetype');
+	
+    font-weight: 300;
+	
+    font-style: normal;
+	
+}
+
+body {
+	
+	margin: 0;
+	
+	font-family: Open Sans;
+	
+	color: #555;
+	
+	font-size: 1em;
+	
+	overflow: hidden;
+	
+}
+
+table {
+	
+	margin: auto;
+	
+}
+
+p {
+	
+	margin: 0;
+	
+}
+
+input[type=radio], input[type=checkbox], input[type=file] {
+	
+	display: none;
+	margin: 0;
+	
+}
+
+input:focus, textarea:focus {
+
+	outline: none;
+
+}
+
+::-webkit-input-placeholder {
+    
+  color: #ccc;
+  
+}
+
+.hidden {
+    
+    display: none !important;
+    
+}
