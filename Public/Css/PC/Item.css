@@ -1,0 +1,166 @@
+.develop-window {
+	
+	position: absolute;
+	top: 0;
+	
+}
+
+.item-box {
+	
+	background-color: #eee;
+	border-radius: 3px;
+	margin: 0 0 16px;
+	cursor: pointer;
+	
+}
+
+.item-box[data-action="good"] > .action-box {
+	
+	background-color: #63aa55;
+	
+}
+
+.item-box[data-action="good"] > .data-box {
+	
+	border: 1px solid #63aa55;
+	
+}
+
+.item-box[data-action="send"] > .action-box {
+	
+	background-color: #5c93c4;
+	
+}
+
+.item-box[data-action="send"] > .data-box {
+	
+	border: 1px solid #5c93c4;
+	
+}
+
+.item-box[data-action="resume"] > .action-box {
+	
+	background-color: #eebdbd;
+	
+}
+
+.item-box[data-action="resume"] > .data-box {
+	
+	border: 1px solid #eebdbd;
+	
+}
+
+.item-box[data-action="half"] > .action-box {
+	
+	background-color: #a95bb5;
+	
+}
+
+.item-box[data-action="half"] > .data-box {
+	
+	border: 1px solid #a95bb5;
+	
+}
+
+.item-box[data-action="break"] > .action-box {
+	
+	background-color: #dbc2f0;
+	
+}
+
+.item-box[data-action="break"] > .data-box {
+	
+	border: 1px solid #dbc2f0;
+	
+}
+
+.item-box > .data-box {
+	
+	display: flex;
+	border-radius: 3px 3px 0 0;
+	
+}
+
+.item-box > .data-box .item {
+	
+	padding: 2px 8px;
+	
+}
+
+.item-box > .action-box {
+	
+	text-align: right;
+	padding: 2px 6px 2px;
+	background-color: #999;
+	color: #fff;
+	font-size: 80%;
+	border-radius: 0 0 3px 3px;
+	
+}
+
+.item-box[data-action="resume"] > .action-box {
+	
+	font-weight: bold;
+	
+}
+
+.home-page {
+	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow-y: auto;
+	width: 60vw;
+	margin: 0 auto
+	
+}
+
+.home-page > .project-name {
+	
+	font-size: 160%;
+	margin: 10px;
+	font-weight: bold;
+	
+}
+
+.home-page > .new-item {
+	
+	margin: 0 0 32px;
+	padding: 10px 14px;
+	background-color: #63aa55;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+.j-container {
+	
+	text-align: center;
+	padding: 10px 0;
+	
+}
+
+.j-name {
+	
+	text-align: center;
+    background: #555;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 3px;
+	
+}
+
+.file-container {
+	
+	margin: 20px 0;
+	width: 100%;
+	
+}
+
+.span-prov {
+	
+	margin-right: 6px;
+	
+}

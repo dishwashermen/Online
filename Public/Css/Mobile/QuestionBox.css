@@ -1,0 +1,472 @@
+.main-container {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	
+}
+
+#MainContainer .abort {
+	
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	margin: 6px;
+	cursor: pointer;
+	background: #fff center no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAABwUlEQVRYhe3XMW7CMBQG4P+VHgAzkQV1q8TMHTp1YfBCoLRqOUeOgURVEIqqkgmJrRO3wVNgBKnEXYjUUgcS21EjlH8Mjv1hK/YzUKZMmZMh1cPhcNgG0BZC9D3P+8oTEARBZb1ej4joczAYfBz/fpXw3j0RdRzHGQdBUMkZNwHwGEXRnaqNElir1Z6JaArADcPw3fO865xwYwAugJkQ4kXVTrnEcQebzeZNStmTUgZCiI6t5f6B6wKYrVYrN6nvRGBeyCy4s0DbyKy4VEBbSB0ckPwV/wrnfF+tVp+IaEpE3HEcP8uHE//BrDgg5QweDySl7KUdSOcdbWDWAU1xWsC0A9vAaQPPAWzhjIBJkGazKW3hjIEx8nCeugD8w2MXgM8Y63PO9yb9GwOBPzMJWJi5OKn2wf9M4ZfYqNZTnBAPjUZjvtvtbgB0t9vtbavVmi+Xy0h3jMvcZgq9URf6qCt0saBbzx0js9aTqQtWXZwpMlXJb4ozQZ69NNnC6SJPXjtt43SQSmCeuKxIZbEQhuHrAeczxqxd2H8mvogB8ImI1+v1kapdUjWzkFJObBz255CMsb6UcgJgkdc4ZcpcdL4BuTjIR18epDoAAAAASUVORK5CYII=');
+	
+}
+
+#MainContainer .name {
+	
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 100%;
+	white-space: pre-wrap;
+	padding: 10px 20px;
+	text-align: center;
+	
+}
+
+#MainContainer .name .hlt {
+	
+	text-decoration: underline;
+	font-size: 1.1em;
+	
+}
+
+#MainContainer > .note {
+	
+	text-align: center;
+	font-size: 70%;
+	font-weight: bold;
+	margin: 0 auto 20px;
+	white-space: pre-line;
+	width: fit-content;
+	padding: 10px 20px;
+	font-style: italic;
+	border-radius: 3px;
+	
+}
+
+#MainContainer > .note .hlt {
+
+	background-color: #b95858;
+	padding: 2px 6px;
+	border-radius: 2px;
+	color: #fff;
+
+}
+
+#MainContainer .external {
+	
+	margin: 0 auto 20px;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #888;
+	border-radius: 3px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	text-align: center;
+	white-space: pre-wrap;
+	
+}
+
+#MainContainer .allocate {
+	
+	margin: 0 0 20px;
+	position: sticky;
+	top: 1px;
+	display: flex;
+	border-bottom: 10px solid #fff;
+	border-top: 1px solid #fff;
+	background-color: #fff;
+	z-index: 1;
+	
+}
+
+#MainContainer .allocate div {
+	
+	margin: 0 auto;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #888;
+	border-radius: 3px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	
+}
+
+#MainContainer > .separate {
+	
+	margin: 0 0 20px;
+	position: sticky;
+	top: 1px;
+	display: flex;
+	border-bottom: 10px solid #fff;
+	border-top: 1px solid #fff;
+	background-color: #fff;
+	z-index: 1;
+	
+}
+
+#MainContainer > .separate > div {
+	
+	margin: 0 auto;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: #888;
+	border-radius: 3px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	
+}
+
+#MainContainer > .separate div .hlt {
+	
+	text-decoration: underline;
+	
+}
+
+#MainContainer > .separate div .note {
+	
+	font-size: 80%;
+	padding: 0;
+	text-align: center;
+	font-style: italic;
+	
+}
+
+#MainContainer .filler {
+		
+	height: 100%;
+	
+}
+
+#MainContainer .content {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+#MainContainer .content .input-container {
+	
+	position: relative;
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+/* #MainContainer > .box { */
+	
+	/* display: flex; */
+	/* margin: auto 0; */
+	
+/* } */
+
+/* #MainContainer > .box table { */
+	
+	/* width: 94vw; */
+	
+/* } */
+
+/* #MainContainer > .box table[data-separate] { */
+	
+	/* border-collapse: collapse; */
+	
+/* } */
+
+/* #MainContainer > .box .note { */
+	
+	/* font-size: 80%; */
+	/* color: #fff; */
+	/* max-width: 150px; */
+	/* background-color: #888; */
+	/* border-radius: 2px; */
+	/* padding: 0 4px; */
+/* } */
+
+/* #MainContainer > .box .hlt { */
+	
+	/* text-decoration: underline; */
+/* } */
+
+/* #MainContainer > .filler { */
+	
+	
+	
+/* } */
+
+#MainContainer .buttons {
+	
+	display: flex;
+	border-bottom: 1px solid #fff;
+	
+}
+
+#MainContainer .buttons .filler {
+	
+	width: 1px;
+	
+}
+
+#MainContainer .buttons .box {
+	
+	display: flex;
+	width: 100%;
+	
+}
+
+#MainContainer .buttons .box .button {
+    
+    cursor: pointer;
+    border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #888;
+    color: #fff;
+	font-weight: bold;
+	font-size: 80%;
+    
+}
+
+#MainContainer .buttons .box .button:not([warn]):hover {
+	
+	background-color: #777;
+
+}
+
+.-submit {
+	
+    height: 60px;
+	width: 100%;
+	margin-left: 1px;
+	padding: 0 10px;
+	
+}
+
+
+.-back {
+	
+    height: 60px;
+	width: 40px;
+	
+}
+
+#MainContainer .buttons .box .button[warn] {
+	
+	background-color: #b95858;
+	font-size: 80%;
+	
+}
+
+.string-box {
+	
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	background-color: #eeeeee7d;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	border: 1px solid #eeeeeeb8;
+	
+}
+
+.string-box[data-error] {
+	
+	border: 1px solid #b95858;
+	
+}
+
+.string-box .row-note {
+	
+	font-size: 80%;
+	padding: 3px 0 0;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0 8px 4px 8px;
+	color: #b95858;
+	
+}
+
+.string-box div.input-caption {
+	
+	color: #555;
+	font-weight: bold;
+	margin: 8px 8px 4px 8px;
+	font-size: 90%;
+	white-space: pre-wrap;
+	
+}
+
+.string-box  label.input-caption {
+	
+	display: block;
+	padding: 10px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+	border: 1px solid transparent;
+	
+}
+
+.string-box  label.input-multi-caption {
+	
+	display: block;
+	padding: 10px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+	border: 1px solid transparent;
+	
+}
+
+.string-box label.input-caption:hover {
+	
+	background-color: #eee;
+	border-color: #eee;
+	
+}
+
+.string-box label.input-multi-caption:hover {
+	
+	background-color: #eee;
+	border-color: #eee;
+	
+}
+
+.string-box input[type=radio]:checked + label.input-caption, .string-box input[type=checkbox]:checked + label.input-caption {
+	
+	background-color: #63aa55;
+	border-color: #63aa55;
+	color: #fff;
+	
+}
+
+.string-box input[type=radio]:checked + label.input-multi-caption, .string-box input[type=checkbox]:checked + label.input-multi-caption {
+	
+	background-color: #63aa55;
+	border-color: #63aa55;
+	color: #fff;
+	
+}
+
+.string-box input[type="text"], .string-box input[type="number"], .string-box input[type="tel"] {
+	
+	border: none;
+	outline: none;
+	padding: 0 0 0 2px;
+	background-color: transparent;
+	border-bottom: 1px solid #888;
+	width: -webkit-fill-available;
+	width: -moz-available;
+	height: 30px;
+	font-size: 90%;
+	color: #555;
+	font-weight: bold;
+	margin: 0 8px 8px 8px
+	
+}
+
+.string-box select {
+	
+	width: -webkit-fill-available;
+	width: -moz-available;
+	height: 30px;
+    border-style: none;
+	padding: 2px;
+	color: #555;
+	background-color: transparent;
+	font-size: 1em;
+	margin: 0 10px 10px 10px
+	
+}
+
+.string-box textarea {
+	
+	padding: 10px;
+	border: none;
+	background-color: transparent;
+	max-width: calc(100vw / 2);
+	min-width: calc(100vw / 4);
+	font-size: 1em;
+	color: #555;
+	font-weight: bold;
+	
+}
+
+input[type=radio]:checked + label:before {
+	
+	background: radial-gradient(circle, #555 55%, transparent 60%);
+	
+}
+
+input[type=checkbox]:checked + label:before {
+	
+	background: linear-gradient(90deg, #fff 10%, transparent 10%, transparent 90%, #fff 90%), linear-gradient(#fff 10%, #555 10%, #555 90%, #fff 90%);
+	
+}
+
+label.radio, label.checkbox {
+
+	cursor: pointer;
+		
+}
+
+label.radio:before, label.checkbox:before {
+	
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+	vertical-align: middle;
+	border : #555 1px solid;
+	
+}
+
+label.radio:before {
+	
+	border-radius: 11px;
+	
+}
+
+label.checkbox:before {
+	
+	border-radius: 2px;
+	
+}
+
+.j-container {
+	
+	text-align: center;
+	padding: 10px 0;
+	
+}
+
+.j-name {
+	
+	text-align: center;
+    background: #555;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 3px;
+	
+}
